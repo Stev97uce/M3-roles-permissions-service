@@ -1,15 +1,10 @@
 package com.lavanet.roles_permissions_service.controller;
 
-import java.util.List;
-
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
 import com.lavanet.roles_permissions_service.model.Permission;
 import com.lavanet.roles_permissions_service.service.PermissionService;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/permissions")
